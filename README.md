@@ -6,16 +6,9 @@ Core initialization and vehicle telemetry OS graphics controller for SAE Baja 20
 
 ## Demo Video
 
-https://github.com/user-attachments/assets/
-> **Video Demonstration**: The video file is included in this repository.
+<!-- Drag and drop Motorex_dashbaord_video.mp4 here in GitHub editor to embed the video player -->
 
-<p align="center">
-  <video src="Motorex_dashbaord_video.mp4" width="85%" controls autoplay loop muted>
-    Your browser does not support the video tag.
-  </video>
-</p>
-
-[▶ Click here to view or download the demo video (`Motorex_dashbaord_video.mp4`)](Motorex_dashbaord_video.mp4)
+[▶ View / Download Demo Video (`Motorex_dashbaord_video.mp4`)](Motorex_dashbaord_video.mp4)
 
 ---
 
@@ -67,7 +60,7 @@ gcc --version
 
 1. Clone repository with submodules:
    ```bash
-   git clone --recursive <repository-url>
+   git clone --recursive https://github.com/Abhi-jith4/autonomous-vehicle-dashboard.git
    cd Motorex_vehicle_dashbaord
    ```
    *(If already cloned without `--recursive`, run `git submodule update --init --recursive`)*
