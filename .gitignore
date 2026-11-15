@@ -1,16 +1,16 @@
-# Ignore build folder
+# Build directories
 build/
 bin/
 
-# Screenshots / dumps
+# Temporary files & raw bitmap dumps
 *.bmp
-*.png
+*.tmp
+*Zone.Identifier*
 
-# Ignore all dot folders, with below exceptions
-.*/
-
-# VSCode
-.vscode
-
-# MacOS file
+# OS & Editor files
+.vscode/
 .DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
