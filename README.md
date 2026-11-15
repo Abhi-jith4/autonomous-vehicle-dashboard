@@ -20,26 +20,6 @@ Core vehicle initialization, telemetry operating system, and graphical instrumen
 
 ---
 
-## 📸 Screenshots Gallery
-
-| 🏠 Home Telemetry Screen | 🏎️ Vehicle Powertrain & Thermal |
-|:---:|:---:|
-| ![Home Page](docs/media/page_home.png) | ![Vehicle Page](docs/media/page_vehicle.png) |
-
-| 📡 Multi-Sensor Health & Perception | 🔄 Steer-By-Wire (SBW) Closed Loop |
-|:---:|:---:|
-| ![Sensors Page](docs/media/page_sensors.png) | ![Steering Page](docs/media/page_steering.png) |
-
-| 🔀 Autonomous Mode Orchestration | ⚠️ Diagnostics & Error Matrix |
-|:---:|:---:|
-| ![Autonomous Mode Page](docs/media/page_mode.png) | ![Errors Page](docs/media/page_errors.png) |
-
-| ⚙️ Calibration & Display Settings |
-|:---:|
-| ![Settings Page](docs/media/page_settings.png) |
-
----
-
 ## ✨ Key Capabilities & System Features
 
 ### 1. 🏎️ Primary Drive Telematics (`Home Screen`)
@@ -109,16 +89,9 @@ The instrument cluster communicates across vehicle networks via **SocketCAN**:
 │   └── freertos/                  # Optional FreeRTOS POSIX port files
 │
 ├── docs/                          # Documentation & media assets
-│   └── media/                     # Demo videos, animated GIFs, and screen captures
+│   └── media/                     # Demo video and animated GIF
 │       ├── dashboard_demo.gif
-│       ├── Motorex_dashbaord_video.mp4
-│       ├── page_home.png
-│       ├── page_vehicle.png
-│       ├── page_sensors.png
-│       ├── page_steering.png
-│       ├── page_mode.png
-│       ├── page_errors.png
-│       └── page_settings.png
+│       └── Motorex_dashbaord_video.mp4
 │
 ├── lvgl/                          # LVGL 9.x submodule
 └── FreeRTOS/                      # FreeRTOS kernel submodule
