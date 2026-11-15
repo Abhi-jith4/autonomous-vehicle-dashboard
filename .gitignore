@@ -2,6 +2,10 @@
 build/
 bin/
 
+# Screenshots / dumps
+*.bmp
+*.png
+
 # Ignore all dot folders, with below exceptions
 .*/
 
